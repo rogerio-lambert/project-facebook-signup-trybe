@@ -47,6 +47,9 @@ buttonSubscrive.addEventListener('click', (event) => {
       console.log(index, formResults[index].name, formResults[index].value);
     }
   }
+  console.table(formResults);
+  console.table(formResults[5]);
+  console.table(contentForm);
   checkValues(contentForm);
 });
 
